@@ -15,12 +15,11 @@ namespace Assignment3._1._1
         public static int[] ReturvEvenNumbers(int[] nums)
         {
             int j = 0;
-            for (int i = 2; j < nums.Length;)
+            for (int i = 2; j < nums.Length; j++)
             {
                 
                 nums[j] = i;
                 i = i + 2;
-                j++;
             }
             return nums;
         }
